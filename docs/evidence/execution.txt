@@ -1,0 +1,13 @@
+$ python src/disk_health.py --json sample/smartctl.json
+{
+  "model": "Sample NVMe SSD",
+  "serial_number": "DEMO0001",
+  "smart_passed": true,
+  "temperature_c": 39,
+  "power_on_hours": 2100,
+  "percentage_used": 8,
+  "available_spare_percent": 100,
+  "media_errors": 0,
+  "unsafe_shutdowns": 2
+}
+

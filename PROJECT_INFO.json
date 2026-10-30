@@ -1,0 +1,32 @@
+{
+  "project_id": 13,
+  "repo_name": "013-disk-health-monitor",
+  "title": "Disk Health Monitor",
+  "theme": "Distributed AI & Computing Infrastructure",
+  "theme_id": "T06",
+  "level": 1,
+  "level_label": "Foundations",
+  "prototype_status": "research prototype",
+  "primary_description": "SMART/NVMe health reporting",
+  "research_question_proposed": "Can device-health exports be normalized into interpretable disk-maintenance indicators?",
+  "sample_files": [
+    "sample/smartctl.json"
+  ],
+  "source_modules": [
+    "src/disk_health.py"
+  ],
+  "commands_from_original_readme": [
+    "python src/disk_health.py --device /dev/sda",
+    "python src/disk_health.py --json sample/smartctl.json"
+  ],
+  "docs": [
+    "README.md",
+    "docs/RESEARCH.md",
+    "docs/ARCHITECTURE.md",
+    "docs/DEMO.md",
+    "docs/RESULTS.md"
+  ],
+  "source_origin": "github-level1-20-projects(1).zip",
+  "execution_status": "verified_local_execution",
+  "evidence": "results/execution.json"
+}

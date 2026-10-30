@@ -1,0 +1,19 @@
+{
+  "model_name": "Sample NVMe SSD",
+  "serial_number": "DEMO0001",
+  "smart_status": {
+    "passed": true
+  },
+  "temperature": {
+    "current": 39
+  },
+  "power_on_time": {
+    "hours": 2100
+  },
+  "nvme_smart_health_information_log": {
+    "available_spare": 100,
+    "percentage_used": 8,
+    "media_errors": 0,
+    "unsafe_shutdowns": 2
+  }
+}

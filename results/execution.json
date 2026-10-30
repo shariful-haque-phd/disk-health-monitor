@@ -1,0 +1,23 @@
+{
+  "id": "013",
+  "status": "executed",
+  "commands": [
+    "python src/disk_health.py --json sample/smartctl.json"
+  ],
+  "elapsed_seconds": 1.63,
+  "python": "3.13.5",
+  "inputs": [
+    {
+      "file": "sample/smartctl.json",
+      "sha256": "0a7954e78062a0c5b560b2a80dc3ed84449e8b7af8f2dc05986ec7916a434f05"
+    }
+  ],
+  "output_artifacts": [
+    {
+      "file": "results/execution.txt",
+      "sha256": "d5e153c0ff766905569c7dfeb656e4b4d149ef3847ed3fb0e143e967fcb4b08d",
+      "bytes": 298
+    }
+  ],
+  "observations": "Local execution using bundled fixtures; not an external performance evaluation."
+}
